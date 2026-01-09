@@ -1,11 +1,17 @@
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
 import './styles/global.css'
 import './styles/theme.css'
 
 
 
 export function App() {
-    console.log('Oi')
-
-    return <h1>Olá Mundo!</h1>;
+    return (
+    <>
+        <Container><Heading>LOGO</Heading></Container>
+        <Container><Heading>MENU</Heading></Container>
+        
+    </>
+    );
 }
 
